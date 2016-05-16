@@ -38,7 +38,7 @@ try:
     ADAFRUID_BBIO_SPI = False
     print("SPI OK")
 except:
-    # from Adafruit_BBIO.SPI import SPI
+    from Adafruit_BBIO.SPI import SPI
     ADAFRUID_BBIO_SPI = True
 
 
